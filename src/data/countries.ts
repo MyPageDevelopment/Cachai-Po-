@@ -17,6 +17,14 @@ export const translationData: { [key: string]: { [key: string]: { text: string; 
       text: "Está chida la fiesta",
       equivalences: { piola: "chida", carrete: "fiesta" },
     },
+    "Anda a la chucha": {
+      text: "Vete a la fregada",
+      equivalences: { "Anda a la chucha": "Vete a la fregada" },
+    },
+    "Cuático": {
+      text: "Bien loco",
+      equivalences: { Cuático: "Bien loco" },
+    },
     "Bacán": {
       text: "Chido",
       equivalences: { Bacán: "Chido" },
@@ -43,15 +51,71 @@ export const translationData: { [key: string]: { [key: string]: { text: string; 
     },
   },
   "AR-CL": {
-    "Che boludo": {
-      text: "Oye compadre",
-      equivalences: { Che: "Oye", boludo: "compadre" },
+    "Che boludo, ¿qué hacés?": {
+      text: "Oye compadre, ¿qué haces?",
+      equivalences: { Che: "Oye", boludo: "compadre", hacés: "haces" },
+    },
+    "Re copado": {
+      text: "Bacán",
+      equivalences: { "Re copado": "Bacán" },
+    },
+    "Quilombo": {
+      text: "Caos",
+      equivalences: { Quilombo: "Caos" },
+    },
+  },
+  "CO-VE": {
+    "Qué chimba parce": {
+      text: "Qué chévere pana",
+      equivalences: { chimba: "chévere", parce: "pana" },
+    },
+    "Estar prendido": {
+      text: "Estar arrecho",
+      equivalences: { prendido: "arrecho" },
     },
   },
   "CO-CL": {
     "Qué chimba": {
       text: "Qué bacán",
       equivalences: { chimba: "bacán" },
+    },
+  },
+  "MX-ES": {
+    "No manches güey": {
+      text: "No me digas tío",
+      equivalences: { "No manches": "No me digas", güey: "tío" },
+    },
+    "Está chido": {
+      text: "Está guay",
+      equivalences: { chido: "guay" },
+    },
+  },
+  "PE-AR": {
+    "Qué trome causa": {
+      text: "Qué groso che",
+      equivalences: { trome: "groso", causa: "che" },
+    },
+    "Está jato": {
+      text: "Está al pedo",
+      equivalences: { jato: "al pedo" },
+    },
+  },
+  "VE-CO": {
+    "Está arrecho el peo": {
+      text: "Está berraco el parche",
+      equivalences: { arrecho: "berraco", peo: "parche" },
+    },
+  },
+  "UY-CL": {
+    "Ta bueno bo": {
+      text: "Está bueno po",
+      equivalences: { "Ta bueno": "Está bueno", bo: "po" },
+    },
+  },
+  "ES-MX": {
+    "Qué guay tío": {
+      text: "Qué padre güey",
+      equivalences: { guay: "padre", tío: "güey" },
     },
   },
 };

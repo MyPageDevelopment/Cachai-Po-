@@ -13,7 +13,7 @@ interface TextModeProps {
   onSelectDestination: () => void;
   onSwapCountries: () => void;
   onTranslate: (text: string) => void;
-  onNavigate: (screen: "voice-mode" | "dictionary") => void;
+  onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
 }
 
 export function TextMode({

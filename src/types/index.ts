@@ -19,14 +19,26 @@ export interface DictionaryEntry {
 }
 
 export type Screen = 
+  | "onboarding"
   | "voice-mode" 
   | "voice-recording" 
   | "text-mode" 
   | "results" 
   | "country-selector"
   | "dictionary"
-  | "add-word";
+  | "add-word"
+  | "settings";
 
 export interface CountrySelectorProps {
   selecting: "origin" | "destination";
+}
+
+export interface UserSettings {
+  name: string;
+  originCountry: Country;
+  email: string;
+  realtimeTranslation: boolean;
+  readingSpeed: "slow" | "normal" | "fast";
+  darkMode: boolean;
+  language: "es" | "en";
 }

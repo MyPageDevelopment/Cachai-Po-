@@ -1,7 +1,7 @@
 import { Header } from "./Header";
 import { Button } from "@/components/ui/button";
 import { BottomNav } from "./BottomNav";
-import { Square, ArrowLeftRight } from "lucide-react";
+import { Square, ArrowLeftRight, Pause } from "lucide-react";
 import { Country } from "@/types";
 import { useEffect, useState } from "react";
 
@@ -12,7 +12,8 @@ interface VoiceRecordingProps {
   onSelectDestination: () => void;
   onSwapCountries: () => void;
   onStopRecording: () => void;
-  onNavigate: (screen: "voice-mode" | "dictionary") => void;
+  onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
+  realtimeMode?: boolean;
 }
 
 export function VoiceRecording({
@@ -23,6 +24,7 @@ export function VoiceRecording({
   onSwapCountries,
   onStopRecording,
   onNavigate,
+  realtimeMode = false,
 }: VoiceRecordingProps) {
   const [seconds, setSeconds] = useState(0);
   
@@ -75,7 +77,15 @@ export function VoiceRecording({
         
         {/* Center Content */}
         <div className="flex-1 flex flex-col items-center justify-center">
-          <p className="text-lg text-foreground mb-4">Grabando...</p>
+          {realtimeMode && (
+            <div className="mb-4 px-4 py-2 rounded-full bg-primary/20 border border-primary">
+              <span className="text-sm font-medium text-primary">⚡ Traducción en Tiempo Real</span>
+            </div>
+          )}
+          
+          <p className="text-lg text-foreground mb-4">
+            {realtimeMode ? "Traduciendo en vivo..." : "Grabando..."}
+          </p>
           <p className="text-3xl font-mono font-bold text-primary mb-8">{formatTime(seconds)}</p>
           
           {/* Wave Animation */}
@@ -96,7 +106,7 @@ export function VoiceRecording({
             variant="circularRed"
             onClick={onStopRecording}
           >
-            <Square className="w-8 h-8 fill-current" />
+            {realtimeMode ? <Pause className="w-8 h-8" /> : <Square className="w-8 h-8 fill-current" />}
           </Button>
         </div>
       </div>

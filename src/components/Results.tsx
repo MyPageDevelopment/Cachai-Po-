@@ -9,7 +9,7 @@ interface ResultsProps {
   destinationCountry: Country;
   onNewTranslation: () => void;
   onSaveToDictionary: (entry: Omit<DictionaryEntry, "id">) => void;
-  onNavigate: (screen: "voice-mode" | "dictionary") => void;
+  onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
 }
 
 export function Results({

@@ -9,7 +9,7 @@ interface DictionaryProps {
   onAddWord: () => void;
   onDeleteEntry: (id: string) => void;
   onChangeNationality: () => void;
-  onNavigate: (screen: "voice-mode" | "dictionary") => void;
+  onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
 }
 
 export function Dictionary({

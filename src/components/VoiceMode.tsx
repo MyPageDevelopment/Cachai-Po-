@@ -12,7 +12,8 @@ interface VoiceModeProps {
   onSelectDestination: () => void;
   onSwapCountries: () => void;
   onStartRecording: () => void;
-  onNavigate: (screen: "voice-mode" | "dictionary") => void;
+  onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
+  realtimeMode?: boolean;
 }
 
 export function VoiceMode({
@@ -24,6 +25,7 @@ export function VoiceMode({
   onSwapCountries,
   onStartRecording,
   onNavigate,
+  realtimeMode = false,
 }: VoiceModeProps) {
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -67,8 +69,14 @@ export function VoiceMode({
         
         {/* Center Content */}
         <div className="flex-1 flex flex-col items-center justify-center">
+          {realtimeMode && (
+            <div className="mb-4 px-4 py-2 rounded-full bg-primary/20 border border-primary">
+              <span className="text-sm font-medium text-primary">⚡ Tiempo Real</span>
+            </div>
+          )}
+          
           <p className="text-lg text-muted-foreground mb-8 text-center">
-            Presiona grabar para comenzar
+            {realtimeMode ? "Presiona para iniciar traducción en tiempo real" : "Presiona grabar para comenzar"}
           </p>
           
           <Button

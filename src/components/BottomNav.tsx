@@ -3,7 +3,7 @@ import { BookOpen, Home, Settings } from "lucide-react";
 
 interface BottomNavProps {
   activeScreen: string;
-  onNavigate: (screen: "voice-mode" | "dictionary") => void;
+  onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
 }
 
 export function BottomNav({ activeScreen, onNavigate }: BottomNavProps) {
@@ -31,7 +31,8 @@ export function BottomNav({ activeScreen, onNavigate }: BottomNavProps) {
         <Button
           variant="ghost"
           size="icon"
-          className="text-muted-foreground"
+          onClick={() => onNavigate("settings")}
+          className={activeScreen === "settings" ? "text-primary" : "text-muted-foreground"}
         >
           <Settings className="w-6 h-6" />
         </Button>
