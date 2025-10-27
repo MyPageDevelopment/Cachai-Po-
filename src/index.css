@@ -8,49 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Cachai Po' Color Palette - All HSL */
-    --background: 44 67% 95%; /* Light beige #F5F1E8 */
-    --foreground: 210 13% 25%; /* Dark gray #34495E */
+    /* Cachai Po' Color Palette - Blanco, Azul, Rojo (Pasteles) - All HSL */
+    --background: 0 0% 98%; /* Blanco casi puro */
+    --foreground: 220 15% 25%; /* Gris azulado oscuro */
 
-    --card: 0 0% 100%; /* White */
-    --card-foreground: 210 13% 25%;
+    --card: 0 0% 100%; /* Blanco */
+    --card-foreground: 220 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 13% 25%;
+    --popover-foreground: 220 15% 25%;
 
-    /* Primary Yellow #F9DB5D */
-    --primary: 48 93% 67%;
-    --primary-foreground: 210 13% 25%;
-    --primary-glow: 48 93% 77%; /* Lighter yellow for glow */
+    /* Rojo Pastel Primary */
+    --primary: 0 75% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 0 75% 75%; /* Rojo más claro para glow */
 
-    /* Turquoise/Cyan #5DADE2 */
-    --secondary: 199 71% 62%;
+    /* Azul Pastel Secondary */
+    --secondary: 210 75% 65%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Olive Green #8B9556 */
-    --accent: 66 28% 47%;
+    /* Azul más fuerte para acentos */
+    --accent: 210 80% 55%;
     --accent-foreground: 0 0% 100%;
 
-    --muted: 44 40% 85%;
-    --muted-foreground: 210 13% 45%;
+    --muted: 220 20% 92%;
+    --muted-foreground: 220 15% 45%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 44 30% 88%;
-    --input: 44 30% 88%;
-    --ring: 48 93% 67%;
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 0 75% 65%;
 
     --radius: 1rem;
 
     /* Additional theme colors */
-    --card-turquoise: 199 71% 62%;
-    --card-yellow: 48 93% 67%;
-    --card-olive: 66 28% 47%;
+    --card-turquoise: 210 75% 65%; /* Ahora azul */
+    --card-yellow: 0 75% 65%; /* Ahora rojo */
+    --card-olive: 210 80% 55%; /* Azul fuerte */
     
     /* Gradients */
-    --gradient-radial: radial-gradient(circle at center, hsl(var(--background)), hsl(44 50% 90%));
-    --gradient-header: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(48 93% 97%) 100%);
+    --gradient-radial: radial-gradient(circle at center, hsl(var(--background)), hsl(210 60% 95%));
+    --gradient-header: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(210 75% 97%) 100%);
   }
 }
 
@@ -61,8 +61,8 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    background: radial-gradient(circle at top right, hsl(199 71% 62% / 0.05), transparent 50%),
-                radial-gradient(circle at bottom left, hsl(48 93% 67% / 0.05), transparent 50%),
+    background: radial-gradient(circle at top right, hsl(210 75% 65% / 0.08), transparent 50%),
+                radial-gradient(circle at bottom left, hsl(0 75% 65% / 0.08), transparent 50%),
                 hsl(var(--background));
   }
 }
