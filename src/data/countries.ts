@@ -1,5 +1,6 @@
 import { Country } from "@/types";
 
+
 export const countries: Country[] = [
   { code: "CL", name: "Chile", flag: "🇨🇱" },
   { code: "MX", name: "México", flag: "🇲🇽" },

@@ -78,12 +78,12 @@ export function Results({
         </div>
       </div>
 
-      <div className="flex gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
         <Button
           onClick={onNewTranslation}
           variant="outline"
           size="lg"
-          className="flex-1 h-12 border-2 border-[hsl(217,100%,33%)] text-[hsl(217,100%,33%)] hover:bg-[hsl(217,100%,33%)]/10"
+          className="w-full h-12 border-2 border-[hsl(217,100%,33%)] text-[hsl(217,100%,33%)] hover:bg-[hsl(217,100%,33%)]/10"
         >
           <RotateCcw className="w-5 h-5 mr-2" />
           Nueva traducción
@@ -92,7 +92,7 @@ export function Results({
         <Button
           onClick={handleSave}
           size="lg"
-          className="flex-1 h-12 bg-gradient-to-br from-[hsl(4,75%,49%)] to-[hsl(4,100%,63%)] text-white shadow-[0_4px_20px_rgba(213,43,30,0.3)] hover:shadow-[0_6px_30px_rgba(213,43,30,0.5)] hover:scale-105 active:scale-95 transition-all"
+          className="w-full h-12 bg-gradient-to-br from-[hsl(4,75%,49%)] to-[hsl(4,100%,63%)] text-white shadow-[0_4px_20px_rgba(213,43,30,0.3)] hover:shadow-[0_6px_30px_rgba(213,43,30,0.5)] hover:scale-105 active:scale-95 transition-all"
         >
           <Save className="w-5 h-5 mr-2" />
           Guardar
