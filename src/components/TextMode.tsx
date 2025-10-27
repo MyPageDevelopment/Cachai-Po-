@@ -34,6 +34,7 @@ export function TextMode({
     <div className="min-h-screen bg-background flex flex-col">
       <Header
         title="Modo Texto"
+        icon="text"
         rightAction={
           <Button variant="outline" size="sm" onClick={onToggleMode}>
             Modo Voz
@@ -46,9 +47,9 @@ export function TextMode({
         <div className="flex items-center justify-center gap-4 mb-8">
           <button
             onClick={onSelectOrigin}
-            className="flex flex-col items-center gap-2 p-4 rounded-2xl bg-card border border-border hover:shadow-md transition-all active:scale-95"
+            className="flex flex-col items-center gap-2 p-4 rounded-2xl bg-card border-2 border-border hover:border-primary hover-lift transition-all active:scale-95 shadow-md"
           >
-            <span className="text-5xl">{originCountry.flag}</span>
+            <span className="text-6xl">{originCountry.flag}</span>
             <span className="text-sm font-medium text-foreground">{originCountry.name}</span>
           </button>
           
@@ -56,16 +57,16 @@ export function TextMode({
             variant="ghost"
             size="icon"
             onClick={onSwapCountries}
-            className="rounded-full"
+            className="rounded-full hover:animate-bounce-gentle w-14 h-14"
           >
-            <ArrowLeftRight className="w-6 h-6 text-primary" />
+            <ArrowLeftRight className="w-7 h-7 text-primary" />
           </Button>
           
           <button
             onClick={onSelectDestination}
-            className="flex flex-col items-center gap-2 p-4 rounded-2xl bg-card border border-border hover:shadow-md transition-all active:scale-95"
+            className="flex flex-col items-center gap-2 p-4 rounded-2xl bg-card border-2 border-border hover:border-secondary hover-lift transition-all active:scale-95 shadow-md"
           >
-            <span className="text-5xl">{destinationCountry.flag}</span>
+            <span className="text-6xl">{destinationCountry.flag}</span>
             <span className="text-sm font-medium text-foreground">{destinationCountry.name}</span>
           </button>
         </div>

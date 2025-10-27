@@ -7,35 +7,51 @@ interface BottomNavProps {
 }
 
 export function BottomNav({ activeScreen, onNavigate }: BottomNavProps) {
+  const isActive = (screen: string) => {
+    if (screen === "home") {
+      return activeScreen.includes("voice") || activeScreen.includes("text");
+    }
+    return activeScreen === screen;
+  };
+
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-card border-t border-border shadow-lg">
-      <div className="max-w-lg mx-auto px-5 py-4 flex justify-around items-center">
-        <Button
-          variant="ghost"
-          size="icon"
+    <div className="fixed bottom-0 left-0 right-0 bg-card/95 backdrop-blur-sm border-t border-border shadow-lg">
+      <div className="max-w-lg mx-auto px-5 py-3 flex justify-around items-center">
+        <button
           onClick={() => onNavigate("dictionary")}
-          className={activeScreen === "dictionary" ? "text-primary" : "text-muted-foreground"}
+          className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-all ${
+            isActive("dictionary")
+              ? "text-primary bg-primary/10"
+              : "text-muted-foreground hover:text-foreground"
+          }`}
         >
           <BookOpen className="w-6 h-6" />
-        </Button>
+          <span className="text-xs font-medium">Diccionario</span>
+        </button>
         
-        <Button
-          variant="ghost"
-          size="icon"
+        <button
           onClick={() => onNavigate("voice-mode")}
-          className={activeScreen.includes("voice") || activeScreen.includes("text") ? "text-primary" : "text-muted-foreground"}
+          className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-all ${
+            isActive("home")
+              ? "text-primary bg-primary/10"
+              : "text-muted-foreground hover:text-foreground"
+          }`}
         >
           <Home className="w-6 h-6" />
-        </Button>
+          <span className="text-xs font-medium">Inicio</span>
+        </button>
         
-        <Button
-          variant="ghost"
-          size="icon"
+        <button
           onClick={() => onNavigate("settings")}
-          className={activeScreen === "settings" ? "text-primary" : "text-muted-foreground"}
+          className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-all ${
+            isActive("settings")
+              ? "text-primary bg-primary/10"
+              : "text-muted-foreground hover:text-foreground"
+          }`}
         >
           <Settings className="w-6 h-6" />
-        </Button>
+          <span className="text-xs font-medium">Ajustes</span>
+        </button>
       </div>
     </div>
   );

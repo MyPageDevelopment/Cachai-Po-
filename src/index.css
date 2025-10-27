@@ -21,6 +21,7 @@ All colors MUST be HSL.
     /* Primary Yellow #F9DB5D */
     --primary: 48 93% 67%;
     --primary-foreground: 210 13% 25%;
+    --primary-glow: 48 93% 77%; /* Lighter yellow for glow */
 
     /* Turquoise/Cyan #5DADE2 */
     --secondary: 199 71% 62%;
@@ -46,6 +47,10 @@ All colors MUST be HSL.
     --card-turquoise: 199 71% 62%;
     --card-yellow: 48 93% 67%;
     --card-olive: 66 28% 47%;
+    
+    /* Gradients */
+    --gradient-radial: radial-gradient(circle at center, hsl(var(--background)), hsl(44 50% 90%));
+    --gradient-header: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(48 93% 97%) 100%);
   }
 }
 
@@ -56,6 +61,9 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
+    background: radial-gradient(circle at top right, hsl(199 71% 62% / 0.05), transparent 50%),
+                radial-gradient(circle at bottom left, hsl(48 93% 67% / 0.05), transparent 50%),
+                hsl(var(--background));
   }
 }
 
@@ -68,9 +76,41 @@ All colors MUST be HSL.
     animation: wave 1.5s ease-in-out infinite;
   }
   
+  .animate-pulse-subtle {
+    animation: pulse-subtle 2s ease-in-out infinite;
+  }
+  
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+  
+  .animate-bounce-gentle {
+    animation: bounce-gentle 0.6s ease-in-out;
+  }
+  
+  .animate-rotate-swap {
+    animation: rotate-swap 0.5s ease-in-out;
+  }
+  
   @keyframes wave {
     0%, 100% { transform: scaleY(0.5); }
     50% { transform: scaleY(1); }
+  }
+  
+  @keyframes pulse-subtle {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  
+  @keyframes bounce-gentle {
+    0%, 100% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.1) rotate(180deg); }
+  }
+  
+  @keyframes rotate-swap {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.1); }
+    100% { transform: rotate(360deg) scale(1); }
   }
   
   @keyframes fadeIn {
@@ -93,5 +133,14 @@ All colors MUST be HSL.
       opacity: 1;
       transform: scale(1);
     }
+  }
+  
+  .hover-lift {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   }
 }
