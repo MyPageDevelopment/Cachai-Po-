@@ -21,8 +21,8 @@ export function BottomNav({ activeScreen, onNavigate }: BottomNavProps) {
           onClick={() => onNavigate("dictionary")}
           className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-all ${
             isActive("dictionary")
-              ? "text-primary bg-primary/10"
-              : "text-muted-foreground hover:text-foreground"
+              ? "text-[hsl(4,75%,49%)] bg-[hsl(4,75%,49%)]/10"
+              : "text-muted-foreground hover:text-[hsl(217,100%,33%)]"
           }`}
         >
           <BookOpen className="w-6 h-6" />
@@ -33,8 +33,8 @@ export function BottomNav({ activeScreen, onNavigate }: BottomNavProps) {
           onClick={() => onNavigate("voice-mode")}
           className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-all ${
             isActive("home")
-              ? "text-primary bg-primary/10"
-              : "text-muted-foreground hover:text-foreground"
+              ? "text-[hsl(4,75%,49%)] bg-[hsl(4,75%,49%)]/10"
+              : "text-muted-foreground hover:text-[hsl(217,100%,33%)]"
           }`}
         >
           <Home className="w-6 h-6" />
@@ -45,8 +45,8 @@ export function BottomNav({ activeScreen, onNavigate }: BottomNavProps) {
           onClick={() => onNavigate("settings")}
           className={`flex flex-col items-center gap-1 px-4 py-2 rounded-xl transition-all ${
             isActive("settings")
-              ? "text-primary bg-primary/10"
-              : "text-muted-foreground hover:text-foreground"
+              ? "text-[hsl(4,75%,49%)] bg-[hsl(4,75%,49%)]/10"
+              : "text-muted-foreground hover:text-[hsl(217,100%,33%)]"
           }`}
         >
           <Settings className="w-6 h-6" />
