@@ -55,16 +55,8 @@ FRONTEND_URL=http://localhost:8080
 
 Crea la base de datos y ejecuta las migraciones:
 ```bash
-# Crear la base de datos en MySQL
-mysql -u root -p
-CREATE DATABASE cachai_po;
-exit;
-
-# Generar Prisma Client y crear tablas
 npx prisma generate
 npx prisma db push
-
-# Poblar la base de datos con países
 npx prisma db seed
 ```
 
@@ -129,27 +121,9 @@ El backend utiliza Prisma ORM con MySQL.
 - `npm run start:dev` - Iniciar en modo desarrollo
 - `npm run build` - Compilar proyecto
 - `npx prisma studio` - Abrir Prisma Studio (GUI para la DB)
-- `npx prisma generate` - Generar Prisma Client
-- `npx prisma db push` - Sincronizar schema con la base de datos
-- `npx prisma db seed` - Poblar base de datos con datos iniciales
+- `npx prisma migrate dev` - Crear nueva migración
 
 ### Frontend
 - `npm run dev` - Iniciar en modo desarrollo
 - `npm run build` - Compilar para producción
 - `npm run preview` - Vista previa de producción
-
-## Comandos Útiles de Prisma
-
-```bash
-# Ver la base de datos con una interfaz gráfica
-npx prisma studio
-
-# Generar migraciones (producción)
-npx prisma migrate dev --name nombre_migracion
-
-# Sincronizar schema sin migraciones (desarrollo)
-npx prisma db push
-
-# Resetear base de datos
-npx prisma migrate reset
-```

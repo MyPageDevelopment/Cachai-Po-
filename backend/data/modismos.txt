@@ -1,0 +1,728 @@
+# Base de Datos de Modismos Latinoamericanos
+# Formato: palabra_origen|país_origen|palabra_destino|país_destino|contexto
+
+## CHILE (CL) - Modismos más comunes
+
+### Saludos y expresiones básicas
+cachai|CL|entiendes|NEUTRAL|¿Entiendes lo que digo?
+cachai|CL|captas|NEUTRAL|¿Comprendes?
+al tiro|CL|inmediatamente|NEUTRAL|Hacerlo rápido
+al tiro|CL|ahora mismo|NEUTRAL|De inmediato
+al tiro|CL|ahorita|MX|Inmediatamente
+po|CL|pues|NEUTRAL|Muletilla afirmativa
+po|CL|pos|MX|Muletilla
+qué onda|CL|qué tal|NEUTRAL|Saludo informal
+qué onda|CL|qué pasa|NEUTRAL|Saludo
+hueón|CL|tío|ES|Persona, amigo
+hueón|CL|boludo|AR|Amigo, persona
+hueón|CL|wey|MX|Amigo
+weón|CL|tío|ES|Persona
+weón|CL|boludo|AR|Persona
+weón|CL|güey|MX|Amigo
+
+### Adjetivos positivos
+bacán|CL|genial|NEUTRAL|Algo muy bueno
+bacán|CL|chévere|CO|Muy bueno
+bacán|CL|chido|MX|Genial
+bacán|CL|copado|AR|Muy bueno
+piola|CL|tranquilo|NEUTRAL|Relajado, cool
+piola|CL|chévere|CO|Genial
+piola|CL|chido|MX|Cool
+piola|CL|copado|AR|Genial
+la raja|CL|increíble|NEUTRAL|Excelente
+la raja|CL|genial|NEUTRAL|Muy bueno
+la raja|CL|chévere|CO|Increíble
+la raja|CL|padrísimo|MX|Excelente
+filete|CL|excelente|NEUTRAL|Muy bueno
+filete|CL|bacano|CO|Excelente
+filete|CL|chido|MX|Excelente
+pulento|CL|impresionante|NEUTRAL|Muy bueno
+pulento|CL|chévere|CO|Impresionante
+pulento|CL|padrísimo|MX|Genial
+
+### Adjetivos negativos
+fome|CL|aburrido|NEUTRAL|Sin gracia
+fome|CL|latoso|CO|Aburrido
+fome|CL|gacho|MX|Malo, aburrido
+chanta|CL|mentiroso|NEUTRAL|Poco confiable
+chanta|CL|tramposo|NEUTRAL|Deshonesto
+patudo|CL|descarado|NEUTRAL|Atrevido
+patudo|CL|caradura|ES|Sin vergüenza
+rasca|CL|ordinario|NEUTRAL|De mala calidad
+rasca|CL|corriente|NEUTRAL|Malo
+rasca|CL|naco|MX|De mal gusto
+
+### Fiestas y diversión
+carrete|CL|fiesta|NEUTRAL|Celebración
+carrete|CL|rumba|CO|Fiesta
+carrete|CL|reventón|MX|Fiesta grande
+carretear|CL|festejar|NEUTRAL|Ir de fiesta
+carretear|CL|rumbear|CO|Salir de fiesta
+copete|CL|bebida alcohólica|NEUTRAL|Alcohol
+copete|CL|trago|NEUTRAL|Bebida
+copete|CL|pisto|CO|Bebida alcohólica
+tomado|CL|borracho|NEUTRAL|Ebrio
+curado|CL|borracho|NEUTRAL|Ebrio
+curado|CL|pedo|MX|Borracho
+curado|CL|jincho|CO|Borracho
+
+### Comida
+completo|CL|hot dog|NEUTRAL|Perro caliente con todos los ingredientes
+sopaipilla|CL|masa frita|NEUTRAL|Fritura de zapallo
+palta|CL|aguacate|NEUTRAL|Fruta verde
+palta|CL|aguacate|MX|Fruta
+once|CL|merienda|NEUTRAL|Comida ligera de tarde
+guagua|CL|bebé|NEUTRAL|Niño pequeño
+guagua|CL|bebé|NEUTRAL|Infante
+
+### Dinero y compras
+luca|CL|mil pesos|NEUTRAL|Mil unidades monetarias
+gamba|CL|cien pesos|NEUTRAL|Cien unidades
+quina|CL|quinientos|NEUTRAL|Quinientos pesos
+palo|CL|millón|NEUTRAL|Un millón
+estar pelado|CL|sin dinero|NEUTRAL|No tener plata
+estar pelado|CL|estar quebrado|NEUTRAL|Sin recursos
+
+### Transporte y lugares
+micro|CL|autobús|NEUTRAL|Transporte público
+micro|CL|colectivo|AR|Bus
+micro|CL|camión|MX|Autobús
+locomoción|CL|transporte público|NEUTRAL|Medios de transporte
+cola|CL|fila|NEUTRAL|Hacer fila
+cola|CL|fila|MX|Esperar en línea
+
+### Emociones y estados
+cachar|CL|entender|NEUTRAL|Comprender
+cachar|CL|pillar|ES|Agarrar
+cachar|CL|cachar|MX|Atrapar
+estar raja|CL|estar cansado|NEUTRAL|Agotado
+estar raja|CL|estar reventado|MX|Muy cansado
+penca|CL|malo|NEUTRAL|De mala calidad
+penca|CL|maluco|CO|Malo
+tener mala cueva|CL|tener mala suerte|NEUTRAL|Mala fortuna
+estar pato|CL|sin dinero|NEUTRAL|Estar pelado
+andar arriba de la pelota|CL|estar feliz|NEUTRAL|Muy contento
+
+### Insultos y expresiones fuertes
+ándate a la chucha|CL|vete al diablo|NEUTRAL|Insulto fuerte
+flaite|CL|ordinario|NEUTRAL|Persona de barrio bajo
+flaite|CL|naco|MX|Persona corriente
+sapo|CL|soplón|NEUTRAL|Delator
+sapo|CL|chismoso|NEUTRAL|Entrometido
+huevón|CL|idiota|NEUTRAL|Tonto
+gil|CL|tonto|NEUTRAL|Estúpido
+gil|CL|pendejo|MX|Tonto
+
+### Expresiones de sorpresa
+¿en serio?|CL|¿de verdad?|NEUTRAL|Expresión de duda
+la llevó|CL|murió|NEUTRAL|Falleció
+quedó la embarrada|CL|fue un desastre|NEUTRAL|Todo salió mal
+quedó la cagá|CL|fue un caos|NEUTRAL|Gran problema
+no puede ser|CL|increíble|NEUTRAL|Sorpresa
+cuático|CL|increíble|NEUTRAL|Muy loco
+cuático|CL|bien loco|MX|Increíble
+cuático|CL|zarpado|AR|Impresionante
+
+### Trabajo y estudio
+cachar la onda|CL|entender el tema|NEUTRAL|Comprender
+sapear|CL|estudiar mucho|NEUTRAL|Memorizar
+pololear|CL|tener novio/a|NEUTRAL|Estar en una relación
+pololo|CL|novio|NEUTRAL|Pareja romántica
+polola|CL|novia|NEUTRAL|Pareja romántica
+tirar la talla|CL|bromear|NEUTRAL|Hacer chistes
+chamullar|CL|conversar|NEUTRAL|Charlar
+chamullar|CL|ligar|NEUTRAL|Coquetear
+
+## MÉXICO (MX) - Modismos
+
+güey|MX|amigo|NEUTRAL|Compañero
+wey|MX|tío|NEUTRAL|Persona
+no manches|MX|no puede ser|NEUTRAL|Sorpresa
+no manches|MX|cachai|CL|No puede ser
+chido|MX|genial|NEUTRAL|Muy bueno
+chido|MX|bacán|CL|Excelente
+padre|MX|genial|NEUTRAL|Muy bueno
+chela|MX|cerveza|NEUTRAL|Bebida alcohólica
+chela|MX|copete|CL|Bebida
+chamba|MX|trabajo|NEUTRAL|Empleo
+chamba|MX|pega|CL|Trabajo
+ándale|MX|claro|NEUTRAL|Afirmación
+ándale|MX|ya po|CL|De acuerdo
+órale|MX|wow|NEUTRAL|Sorpresa
+carnalito|MX|hermano|NEUTRAL|Amigo cercano
+carnal|MX|hermano|NEUTRAL|Amigo íntimo
+gacho|MX|malo|NEUTRAL|Feo
+gacho|MX|fome|CL|Aburrido
+fresa|MX|pijo|NEUTRAL|Persona de clase alta
+fresa|MX|cuico|CL|Persona adinerada
+naco|MX|ordinario|NEUTRAL|Corriente
+naco|MX|flaite|CL|Persona corriente
+chafa|MX|malo|NEUTRAL|De mala calidad
+chafa|MX|penca|CL|Malo
+a huevo|MX|claro que sí|NEUTRAL|Por supuesto
+sale|MX|de acuerdo|NEUTRAL|Ok
+sale y vale|MX|está bien|NEUTRAL|Todo bien
+qué pedo|MX|qué pasa|NEUTRAL|Qué onda
+ni madres|MX|de ninguna manera|NEUTRAL|Para nada
+está cabrón|MX|está difícil|NEUTRAL|Complicado
+está cabrón|MX|está difícil|CL|Está heavy
+me vale|MX|no me importa|NEUTRAL|Me da igual
+me vale madre|MX|no me importa|NEUTRAL|Me da lo mismo
+está padre|MX|está bueno|NEUTRAL|Está bien
+está de pelos|MX|está genial|NEUTRAL|Excelente
+quedó chingón|MX|quedó genial|NEUTRAL|Quedó perfecto
+chingar|MX|molestar|NEUTRAL|Fastidiar
+chingadera|MX|cosa|NEUTRAL|Objeto
+pinche|MX|maldito|NEUTRAL|Despectivo
+a toda madre|MX|excelente|NEUTRAL|Genial
+culero|MX|malo|NEUTRAL|Pésimo
+aguas|MX|cuidado|NEUTRAL|Atención
+aguas|MX|ojo|CL|Cuidado
+ponerse trucha|MX|ponerse listo|NEUTRAL|Estar atento
+jalar|MX|funcionar|NEUTRAL|Ir
+jalar|MX|ir|NEUTRAL|Moverse
+paro|MX|favor|NEUTRAL|Ayuda
+hazme un paro|MX|hazme un favor|NEUTRAL|Ayúdame
+dar un aventón|MX|dar un ride|NEUTRAL|Llevar en auto
+rayar|MX|molestar|NEUTRAL|Fastidiar
+al chile|MX|la verdad|NEUTRAL|En serio
+neta|MX|verdad|NEUTRAL|En serio
+la neta|MX|la verdad|NEUTRAL|De verdad
+crudo|MX|resaca|NEUTRAL|Malestar post-alcohol
+crudo|MX|con caña|CL|Resaca
+estar pedo|MX|estar borracho|NEUTRAL|Ebrio
+estar pedo|MX|estar curado|CL|Borracho
+chupe|MX|bebida|NEUTRAL|Alcohol
+chupe|MX|copete|CL|Trago
+hueva|MX|flojera|NEUTRAL|Pereza
+me da hueva|MX|me da flojera|NEUTRAL|No tengo ganas
+echar la hueva|MX|holgazanear|NEUTRAL|No hacer nada
+mamón|MX|presumido|NEUTRAL|Engreído
+mamada|MX|tontería|NEUTRAL|Cosa sin sentido
+ni mergas|MX|de ninguna manera|NEUTRAL|Para nada
+
+## ARGENTINA (AR) - Modismos
+
+boludo|AR|amigo|NEUTRAL|Compañero
+boludo|AR|huevón|CL|Persona
+che|AR|oye|NEUTRAL|Interjección
+che|AR|po|CL|Interjección
+copado|AR|genial|NEUTRAL|Muy bueno
+copado|AR|bacán|CL|Excelente
+piola|AR|tranquilo|NEUTRAL|Relajado
+piola|AR|piola|CL|Cool
+quilombo|AR|desorden|NEUTRAL|Caos
+quilombo|AR|caos|NEUTRAL|Desastre
+chamuyar|AR|conversar|NEUTRAL|Charlar
+chamuyar|AR|chamullar|CL|Hablar
+birra|AR|cerveza|NEUTRAL|Bebida
+birra|AR|chela|MX|Cerveza
+bondi|AR|autobús|NEUTRAL|Transporte
+bondi|AR|micro|CL|Bus
+laburo|AR|trabajo|NEUTRAL|Empleo
+laburo|AR|chamba|MX|Trabajo
+laburo|AR|pega|CL|Trabajo
+re|AR|muy|NEUTRAL|Intensificador
+re bueno|AR|muy bueno|NEUTRAL|Excelente
+zarpado|AR|increíble|NEUTRAL|Impresionante
+zarpado|AR|cuático|CL|Loco
+mina|AR|chica|NEUTRAL|Mujer
+mina|AR|mina|CL|Chica
+tipo|AR|hombre|NEUTRAL|Tío
+chabón|AR|tipo|NEUTRAL|Hombre
+flaco|AR|amigo|NEUTRAL|Compa
+pibe|AR|chico|NEUTRAL|Niño
+pendejo|AR|tonto|NEUTRAL|Idiota
+gil|AR|tonto|NEUTRAL|Estúpido
+gil|AR|gil|CL|Tonto
+pelotudo|AR|idiota|NEUTRAL|Estúpido
+la concha de tu madre|AR|insulto|NEUTRAL|Insulto fuerte
+la puta madre|AR|carajo|NEUTRAL|Expresión de enojo
+morfar|AR|comer|NEUTRAL|Alimentarse
+morfar|AR|tragar|NEUTRAL|Comer
+bancar|AR|soportar|NEUTRAL|Aguantar
+no lo banco|AR|no lo soporto|NEUTRAL|No lo aguanto
+fiaca|AR|flojera|NEUTRAL|Pereza
+me da fiaca|AR|me da flojera|NEUTRAL|No tengo ganas
+al pedo|AR|sin sentido|NEUTRAL|Innecesario
+estar al pedo|AR|no hacer nada|NEUTRAL|Estar ocioso
+estar en pedo|AR|estar borracho|NEUTRAL|Ebrio
+estar en pedo|AR|estar curado|CL|Borracho
+escabio|AR|bebida|NEUTRAL|Alcohol
+escabiar|AR|beber|NEUTRAL|Tomar alcohol
+hacer la previa|AR|reunión antes|NEUTRAL|Juntarse antes
+joda|AR|fiesta|NEUTRAL|Celebración
+joda|AR|carrete|CL|Fiesta
+boliche|AR|discoteca|NEUTRAL|Club
+quilombero|AR|problemático|NEUTRAL|Conflictivo
+trucho|AR|falso|NEUTRAL|No auténtico
+trucho|AR|chanta|CL|Mentiroso
+garrón|AR|mala suerte|NEUTRAL|Problema
+flashear|AR|alucinar|NEUTRAL|Imaginar cosas
+qué flash|AR|qué loco|NEUTRAL|Qué raro
+bancarse|AR|aguantarse|NEUTRAL|Soportarse
+está piola|AR|está bien|NEUTRAL|Todo ok
+manija|AR|ansioso|NEUTRAL|Impaciente
+tener manija|AR|estar ansioso|NEUTRAL|Estar nervioso
+mango|AR|dinero|NEUTRAL|Plata
+guita|AR|dinero|NEUTRAL|Plata
+estar sin un mango|AR|sin dinero|NEUTRAL|Pelado
+estar sin un mango|AR|estar pelado|CL|Sin plata
+chamuyar|AR|chamullar|CL|Hablar
+birra|AR|cerveza|NEUTRAL|Bebida
+birra|AR|chela|MX|Cerveza
+bondi|AR|autobús|NEUTRAL|Transporte
+bondi|AR|micro|CL|Bus
+laburo|AR|trabajo|NEUTRAL|Empleo
+laburo|AR|chamba|MX|Trabajo
+
+## COLOMBIA (CO) - Modismos
+
+parce|CO|amigo|NEUTRAL|Compañero
+parce|CO|weón|CL|Amigo
+bacano|CO|genial|NEUTRAL|Muy bueno
+bacano|CO|bacán|CL|Excelente
+chévere|CO|genial|NEUTRAL|Muy bueno
+chévere|CO|chido|MX|Excelente
+chévere|CO|bacán|CL|Genial
+rumba|CO|fiesta|NEUTRAL|Celebración
+rumba|CO|carrete|CL|Fiesta
+rumbear|CO|ir de fiesta|NEUTRAL|Salir a bailar
+guayabo|CO|resaca|NEUTRAL|Malestar post-alcohol
+guayabo|CO|caña|CL|Resaca
+pola|CO|cerveza|NEUTRAL|Bebida
+pola|CO|chela|MX|Cerveza
+berraco|CO|difícil|NEUTRAL|Complicado
+berraco|CO|pesado|NEUTRAL|Duro
+berraco|CO|valiente|NEUTRAL|Corajudo
+vaina|CO|cosa|NEUTRAL|Objeto
+vaina|CO|huevada|CL|Cosa
+qué vaina|CO|qué cosa|NEUTRAL|Qué problema
+parcero|CO|amigo|NEUTRAL|Compañero
+parcero|CO|compa|NEUTRAL|Camarada
+chimba|CO|genial|NEUTRAL|Excelente
+qué chimba|CO|qué bueno|NEUTRAL|Qué bien
+gonorrea|CO|tipo|NEUTRAL|Persona (vulgar)
+malparido|CO|mala persona|NEUTRAL|Desgraciado
+hijueputa|CO|maldito|NEUTRAL|Insulto fuerte
+marica|CO|amigo|NEUTRAL|Compadre (no ofensivo)
+llave|CO|amigo|NEUTRAL|Compañero cercano
+camellar|CO|trabajar|NEUTRAL|Laborar
+camello|CO|trabajo|NEUTRAL|Empleo
+tombo|CO|policía|NEUTRAL|Oficial
+¿quihubo?|CO|¿qué pasa?|NEUTRAL|¿Cómo estás?
+jartera|CO|fastidio|NEUTRAL|Molestia
+me da jartera|CO|me fastidia|NEUTRAL|Me molesta
+paila|CO|mala suerte|NEUTRAL|Problema
+qué paila|CO|qué mal|NEUTRAL|Qué lástima
+estar tragado|CO|estar enamorado|NEUTRAL|Estar perdido de amor
+tragar entero|CO|creer todo|NEUTRAL|Ser ingenuo
+echar los perros|CO|coquetear|NEUTRAL|Ligar
+botar|CO|tirar|NEUTRAL|Desechar
+botar la casa|CO|hacer fiesta|NEUTRAL|Celebrar grande
+filo|CO|hambre|NEUTRAL|Apetito
+tengo filo|CO|tengo hambre|NEUTRAL|Quiero comer
+culicagado|CO|niño|NEUTRAL|Chiquillo
+mono|CO|rubio|NEUTRAL|Pelo claro
+mija|CO|hijita|NEUTRAL|Cariño (femenino)
+mijo|CO|hijito|NEUTRAL|Cariño (masculino)
+
+## VENEZUELA (VE) - Modismos
+
+pana|VE|amigo|NEUTRAL|Compañero
+pana|VE|weón|CL|Amigo
+chamo|VE|chico|NEUTRAL|Joven
+chamo|VE|cabro|CL|Joven
+chama|VE|chica|NEUTRAL|Joven femenino
+chévere|VE|genial|NEUTRAL|Muy bueno
+chévere|VE|bacán|CL|Excelente
+burda|VE|muy|NEUTRAL|Mucho
+burda de|VE|mucho|NEUTRAL|Gran cantidad
+vaina|VE|cosa|NEUTRAL|Objeto
+vaina|VE|huevada|CL|Cosa
+arrecho|VE|enojado|NEUTRAL|Molesto
+arrecho|VE|genial|NEUTRAL|Muy bueno (contexto)
+jeva|VE|chica|NEUTRAL|Mujer joven
+jeva|VE|mina|CL|Chica
+catire|VE|rubio|NEUTRAL|Pelo claro
+marico|VE|amigo|NEUTRAL|Compadre
+carajito|VE|niño|NEUTRAL|Chico
+real|VE|en serio|NEUTRAL|De verdad
+ladilla|VE|problema|NEUTRAL|Fastidio
+qué ladilla|VE|qué fastidio|NEUTRAL|Qué molestia
+pasarse de la raya|VE|exagerar|NEUTRAL|Pasarse
+echar los perros|VE|coquetear|NEUTRAL|Ligar
+rajado|VE|rápido|NEUTRAL|Veloz
+salir rajado|VE|salir corriendo|NEUTRAL|Irse rápido
+peo|VE|problema|NEUTRAL|Lío
+meterse en un peo|VE|meterse en problema|NEUTRAL|Complicarse
+guarandinga|VE|cosa sin valor|NEUTRAL|Baratija
+enchufado|VE|con contactos|NEUTRAL|Con palancas
+estar pelando bola|VE|estar atento|NEUTRAL|Poner atención
+pelar bola|VE|hacer caso|NEUTRAL|Prestar atención
+bochinche|VE|chisme|NEUTRAL|Rumor
+bochinche|VE|cahuín|CL|Chisme
+
+## ESPAÑA (ES) - Modismos
+
+tío|ES|amigo|NEUTRAL|Compañero
+tío|ES|huevón|CL|Persona
+tía|ES|amiga|NEUTRAL|Compañera
+guay|ES|genial|NEUTRAL|Muy bueno
+guay|ES|bacán|CL|Excelente
+mola|ES|gusta|NEUTRAL|Agradar
+molar|ES|gustar|NEUTRAL|Agradar
+mola mazo|ES|gusta mucho|NEUTRAL|Encanta
+vale|ES|ok|NEUTRAL|De acuerdo
+vale|ES|ya po|CL|Está bien
+tío bueno|ES|guapo|NEUTRAL|Atractivo
+tía buena|ES|guapa|NEUTRAL|Atractiva
+flipar|ES|alucinar|NEUTRAL|Sorprenderse
+flipar en colores|ES|sorprenderse mucho|NEUTRAL|Alucinar
+movida|ES|asunto|NEUTRAL|Tema
+movida|ES|vaina|CO|Cosa
+colega|ES|amigo|NEUTRAL|Compañero
+chaval|ES|chico|NEUTRAL|Joven
+chavala|ES|chica|NEUTRAL|Joven femenino
+tronco|ES|amigo|NEUTRAL|Compadre
+macho|ES|amigo|NEUTRAL|Tío
+pavo|ES|chico|NEUTRAL|Tipo
+pasta|ES|dinero|NEUTRAL|Plata
+currar|ES|trabajar|NEUTRAL|Laborar
+curro|ES|trabajo|NEUTRAL|Empleo
+mogollón|ES|mucho|NEUTRAL|Gran cantidad
+un mogollón|ES|montón|NEUTRAL|Cantidad grande
+chungo|ES|malo|NEUTRAL|Feo
+está chungo|ES|está mal|NEUTRAL|Está difícil
+majo|ES|simpático|NEUTRAL|Agradable
+ser un majo|ES|ser amable|NEUTRAL|Ser buena gente
+cachondo|ES|gracioso|NEUTRAL|Chistoso
+estar cachondo|ES|estar excitado|NEUTRAL|Tener ganas
+liarse|ES|enrollarse|NEUTRAL|Besarse
+liarse con alguien|ES|besar|NEUTRAL|Enrolarse
+enrollarse|ES|hacer algo|NEUTRAL|Ponerse a hacer
+rollo|ES|asunto|NEUTRAL|Tema
+qué rollo|ES|qué aburrido|NEUTRAL|Qué lata
+ir de marcha|ES|salir de fiesta|NEUTRAL|Ir de juerga
+juerga|ES|fiesta|NEUTRAL|Celebración
+estar pedo|ES|estar borracho|NEUTRAL|Ebrio
+tronco|ES|colega|NEUTRAL|Amigo
+hostia|ES|golpe|NEUTRAL|Puñetazo
+qué hostia|ES|qué cosa|NEUTRAL|Expresión sorpresa
+cojonudo|ES|genial|NEUTRAL|Excelente
+de puta madre|ES|genial|NEUTRAL|Fantástico
+cojones|ES|valentía|NEUTRAL|Coraje
+tener cojones|ES|tener valor|NEUTRAL|Ser valiente
+petardo|ES|aburrido|NEUTRAL|Latoso
+ser un petardo|ES|ser fome|CL|Ser aburrido
+pasarse de la raya|ES|exagerar|NEUTRAL|Irse de las manos
+ir de cañas|ES|tomar cervezas|NEUTRAL|Ir de copas
+resaca|ES|cruda|NEUTRAL|Malestar post-alcohol
+estar de resaca|ES|tener caña|CL|Estar crudo
+
+## PERÚ (PE) - Modismos
+
+pata|PE|amigo|NEUTRAL|Compañero
+pata|PE|weón|CL|Amigo
+chamba|PE|trabajo|NEUTRAL|Empleo
+chamba|PE|pega|CL|Trabajo
+bacán|PE|genial|NEUTRAL|Muy bueno
+bacán|PE|bacán|CL|Excelente
+jato|PE|casa|NEUTRAL|Hogar
+causa|PE|amigo|NEUTRAL|Compañero
+causa|PE|compa|NEUTRAL|Camarada
+chela|PE|cerveza|NEUTRAL|Bebida
+chela|PE|copete|CL|Trago
+chevere|PE|genial|NEUTRAL|Muy bueno
+huevón|PE|tonto|NEUTRAL|Estúpido
+tono|PE|fiesta|NEUTRAL|Celebración
+ir de tono|PE|ir de fiesta|NEUTRAL|Salir
+chancar|PE|estudiar|NEUTRAL|Estudiar mucho
+chancar|PE|sapear|CL|Estudiar
+chibolo|PE|niño|NEUTRAL|Chico
+misio|PE|gato|NEUTRAL|Felino
+jama|PE|comida|NEUTRAL|Alimento
+jamear|PE|comer|NEUTRAL|Alimentarse
+tono|PE|borrachera|NEUTRAL|Ebriedad
+estar en tono|PE|borracho|NEUTRAL|Ebrio
+firme|PE|de verdad|NEUTRAL|En serio
+al toque|PE|rápido|NEUTRAL|Inmediato
+al toque|PE|al tiro|CL|Rápido
+palta|PE|vergüenza|NEUTRAL|Pena
+qué palta|PE|qué vergüenza|NEUTRAL|Qué pena
+piña|PE|mala suerte|NEUTRAL|Desgracia
+tener piña|PE|tener mala suerte|NEUTRAL|Estar salado
+jalar|PE|reprobar|NEUTRAL|Suspender
+jalar el curso|PE|reprobar|NEUTRAL|Fallar examen
+monse|PE|tonto|NEUTRAL|Bobo
+gil|PE|tonto|NEUTRAL|Idiota
+gil|PE|gil|CL|Tonto
+tombo|PE|policía|NEUTRAL|Oficial
+tombo|PE|paco|CL|Policía
+floro|PE|mentira|NEUTRAL|Cuento
+echar floro|PE|mentir|NEUTRAL|Inventar
+hacer la gamba|PE|hacer trampa|NEUTRAL|Hacer trampa
+poner cabeza|PE|poner atención|NEUTRAL|Concentrarse
+
+## URUGUAY (UY) - Modismos
+
+bo|UY|che|NEUTRAL|Interjección
+ta|UY|está bien|NEUTRAL|De acuerdo
+bárbaro|UY|genial|NEUTRAL|Muy bueno
+bárbaro|UY|bacán|CL|Excelente
+gurí|UY|niño|NEUTRAL|Chico
+gurí|UY|cabro|CL|Niño
+bondi|UY|autobús|NEUTRAL|Transporte
+bondi|UY|micro|CL|Bus
+laburo|UY|trabajo|NEUTRAL|Empleo
+laburo|UY|pega|CL|Trabajo
+ta loco|UY|estás loco|NEUTRAL|Increíble
+capaz|UY|tal vez|NEUTRAL|Quizás
+capaz que sí|UY|tal vez sí|NEUTRAL|Puede ser
+qué fumado|UY|qué loco|NEUTRAL|Qué raro
+estar fumado|UY|estar loco|NEUTRAL|Estar chiflado
+cheto|UY|pijo|NEUTRAL|Persona adinerada
+cheto|UY|cuico|CL|Persona fresa
+linda|UY|bueno|NEUTRAL|Bien
+re lindo|UY|muy lindo|NEUTRAL|Muy bonito
+morfar|UY|comer|NEUTRAL|Alimentarse
+rajar|UY|irse|NEUTRAL|Marcharse
+me rajo|UY|me voy|NEUTRAL|Me largo
+ta linda la cosa|UY|está bien|NEUTRAL|Todo bien
+ni ahí|UY|para nada|NEUTRAL|De ninguna manera
+estoy ni ahí|UY|no me interesa|NEUTRAL|No quiero
+arriba|UY|vamos|NEUTRAL|Adelante
+
+## ECUADOR (EC) - Modismos
+
+ñaño|EC|hermano|NEUTRAL|Amigo cercano
+ñaña|EC|hermana|NEUTRAL|Amiga cercana
+chévere|EC|genial|NEUTRAL|Muy bueno
+chévere|EC|bacán|CL|Excelente
+chiro|EC|sin dinero|NEUTRAL|Pelado
+estar chiro|EC|sin plata|NEUTRAL|Quebrado
+chuta|EC|caramba|NEUTRAL|Expresión sorpresa
+guagua|EC|bebé|NEUTRAL|Niño pequeño
+guagua|EC|guagua|CL|Bebé
+pelado|EC|niño|NEUTRAL|Chico
+mijo|EC|amigo|NEUTRAL|Compadre
+longo|EC|joven|NEUTRAL|Muchacho
+chuchaqui|EC|resaca|NEUTRAL|Cruda
+tener chuchaqui|EC|tener resaca|NEUTRAL|Estar crudo
+bacán|EC|genial|NEUTRAL|Excelente
+chanfle|EC|mal|NEUTRAL|Feo
+qué chanfle|EC|qué mal|NEUTRAL|Qué feo
+caer gordo|EC|caer mal|NEUTRAL|No agradar
+me cae gordo|EC|me cae mal|NEUTRAL|No me gusta
+de ley|EC|seguro|NEUTRAL|Por supuesto
+churos|EC|rulos|NEUTRAL|Pelo rizado
+pana|EC|amigo|NEUTRAL|Compañero
+caleta|EC|casa|NEUTRAL|Hogar
+
+## PUERTO RICO (PR) - Modismos
+
+wepa|PR|genial|NEUTRAL|Expresión de alegría
+chévere|PR|genial|NEUTRAL|Muy bueno
+bregar|PR|trabajar|NEUTRAL|Laborar
+janguear|PR|salir|NEUTRAL|Ir de fiesta
+pana|PR|amigo|NEUTRAL|Compañero
+boricua|PR|puertorriqueño|NEUTRAL|De Puerto Rico
+chin|PR|poco|NEUTRAL|Poquito
+un chin|PR|un poco|NEUTRAL|Poquito
+corillo|PR|grupo|NEUTRAL|Pandilla
+guagua|PR|autobús|NEUTRAL|Bus
+nene|PR|chico|NEUTRAL|Niño
+nena|PR|chica|NEUTRAL|Niña
+brutal|PR|genial|NEUTRAL|Excelente
+
+## CHILE (CL) - Modismos Adicionales Extensos
+
+### Más expresiones cotidianas
+la volá|CL|increíble|NEUTRAL|Algo sorprendente
+la volá|CL|la onda|MX|Impresionante
+terrible|CL|muy|NEUTRAL|Intensificador
+terrible de bueno|CL|muy bueno|NEUTRAL|Excelente
+terrible de malo|CL|muy malo|NEUTRAL|Pésimo
+re|CL|muy|NEUTRAL|Prefijo intensificador
+re bueno|CL|muy bueno|NEUTRAL|Excelente
+re fome|CL|muy aburrido|NEUTRAL|Súper aburrido
+del año|CL|de primera|NEUTRAL|Excelente calidad
+del año del loly|CL|muy antiguo|NEUTRAL|Muy viejo
+mosca|CL|atento|NEUTRAL|Estar alerta
+ojo|CL|cuidado|NEUTRAL|Advertencia
+ojo al charqui|CL|ten cuidado|NEUTRAL|Estar atento
+cahuín|CL|chisme|NEUTRAL|Rumor
+cahuín|CL|cotilleo|ES|Chisme
+cahuín|CL|bochinche|CO|Chisme
+
+### Más comida y bebida
+marraqueta|CL|pan|NEUTRAL|Pan francés
+hallulla|CL|pan redondo|NEUTRAL|Pan típico
+charquicán|CL|guiso|NEUTRAL|Comida típica
+porotos|CL|frijoles|NEUTRAL|Legumbres
+porotos|CL|frijoles|MX|Frijoles
+humitas|CL|tamal|NEUTRAL|Preparación de maíz
+cazuela|CL|sopa|NEUTRAL|Caldo con carne
+empanada|CL|empanada|NEUTRAL|Masa rellena
+choripán|CL|sandwich|NEUTRAL|Pan con chorizo
+mote|CL|maíz cocido|NEUTRAL|Grano de trigo
+pebre|CL|salsa|NEUTRAL|Salsa picante chilena
+
+### Más dinero y economía
+chaucha|CL|poca plata|NEUTRAL|Poco dinero
+moneda|CL|dinero|NEUTRAL|Plata
+billete|CL|dinero|NEUTRAL|Billete
+medio palo|CL|quinientos mil|NEUTRAL|500,000
+palos verdes|CL|dólares|NEUTRAL|Dinero en dólares
+lucas verdes|CL|dólares|NEUTRAL|Dólares
+sin un peso|CL|sin dinero|NEUTRAL|Quebrado
+tieso|CL|sin dinero|NEUTRAL|Sin plata
+forrado|CL|rico|NEUTRAL|Con mucho dinero
+forrado en plata|CL|muy rico|NEUTRAL|Millonario
+
+### Más transporte y ciudad
+colectivo|CL|taxi compartido|NEUTRAL|Transporte compartido
+liebre|CL|taxi pirata|NEUTRAL|Taxi ilegal
+taco|CL|embotellamiento|NEUTRAL|Atasco de tráfico
+taco|CL|tráfico|MX|Embotellamiento
+pega|CL|trabajo|NEUTRAL|Empleo
+pega|CL|chamba|MX|Trabajo
+buscar pega|CL|buscar trabajo|NEUTRAL|Buscar empleo
+estar sin pega|CL|desempleado|NEUTRAL|Sin trabajo
+
+### Más estados y emociones
+achacado|CL|enfermo|NEUTRAL|Indispuesto
+achacado|CL|crudo|MX|Con resaca
+enojado|CL|molesto|NEUTRAL|Enfadado
+cabreado|CL|enojado|NEUTRAL|Muy molesto
+cabreado|CL|encabronado|MX|Furioso
+arrancado|CL|tacaño|NEUTRAL|Avaro
+amarrete|CL|tacaño|NEUTRAL|Mezquino
+pajero|CL|flojo|NEUTRAL|Perezoso
+flojo|CL|perezoso|NEUTRAL|Sin ganas
+porfiao|CL|terco|NEUTRAL|Testarudo
+porfiado|CL|necio|NEUTRAL|Obstinado
+
+### Más insultos y expresiones fuertes
+conchetumare|CL|maldita sea|NEUTRAL|Insulto fuerte
+la cagó|CL|la embarró|NEUTRAL|Metió la pata
+cagada|CL|problema|NEUTRAL|Gran error
+meter la pata|CL|equivocarse|NEUTRAL|Cometer error
+pico|CL|nada|NEUTRAL|No importa
+me importa un pico|CL|no me importa|NEUTRAL|Me da igual
+aweonao|CL|idiota|NEUTRAL|Estúpido
+gil|CL|tonto|AR|Zonzo
+huevón culiao|CL|maldito idiota|NEUTRAL|Insulto muy fuerte
+saco de hueas|CL|inútil|NEUTRAL|Persona incapaz
+forro|CL|mala persona|NEUTRAL|Despreciable
+forro|CL|garca|AR|Mala persona
+
+### Más relaciones y amor
+andar|CL|salir con alguien|NEUTRAL|Tener citas
+andar con|CL|estar con|NEUTRAL|Estar en relación
+curado de amor|CL|enamorado|NEUTRAL|Muy enamorado
+cortarse|CL|terminar|NEUTRAL|Romper relación
+cortar con|CL|dejar a|NEUTRAL|Terminar con pareja
+amigovio|CL|amigo con derechos|NEUTRAL|Relación informal
+chapulinear|CL|andar cambiando|NEUTRAL|Ser infiel
+tirarse a alguien|CL|gustar de alguien|NEUTRAL|Conquista
+tirar los perros|CL|coquetear|NEUTRAL|Ligar
+chapear|CL|besar|NEUTRAL|Dar besos
+mandar fruta|CL|mentir|NEUTRAL|Decir mentiras
+tirar laña|CL|inventar excusas|NEUTRAL|Poner excusas
+
+### Más diversión y entretenimiento
+salir de carrete|CL|ir de fiesta|NEUTRAL|Ir a fiestas
+previo|CL|previa|AR|Reunión antes de salir
+junta|CL|reunión|NEUTRAL|Encuentro
+tocata|CL|concierto|NEUTRAL|Show musical
+recital|CL|concierto|NEUTRAL|Presentación musical
+fondear|CL|quedarse|NEUTRAL|Permanecer
+quedarse en casa|CL|no salir|NEUTRAL|Estar en casa
+pegarse una panzá|CL|comer mucho|NEUTRAL|Atracarse
+ponerse las pilas|CL|apurarse|NEUTRAL|Darse prisa
+poner ojo|CL|poner atención|NEUTRAL|Prestar atención
+
+### Más trabajo y estudio
+profe|CL|profesor|NEUTRAL|Maestro
+compañero|CL|colega|NEUTRAL|Compañero
+pituto|CL|contacto|NEUTRAL|Enchufe
+tener un pituto|CL|tener contacto|NEUTRAL|Tener palanca
+hacer la tarea|CL|hacer deberes|NEUTRAL|Estudiar
+cachar la materia|CL|entender|NEUTRAL|Comprender tema
+hacer la cimarra|CL|faltar a clases|NEUTRAL|Hacer novillos
+hacer la cimarra|CL|hacer rabona|AR|Faltar
+fumarse la clase|CL|faltar|NEUTRAL|No asistir
+irse de pinta|CL|faltar|NEUTRAL|No ir a clases
+
+### Más casa y familia
+vieja|CL|mamá|NEUTRAL|Madre
+viejo|CL|papá|NEUTRAL|Padre
+taita|CL|padre|NEUTRAL|Papá
+cabro|CL|niño|NEUTRAL|Chico
+cabro chico|CL|niño pequeño|NEUTRAL|Niño
+cabro grande|CL|adolescente|NEUTRAL|Joven
+pendejo|CL|niño|NEUTRAL|Chico pequeño
+pendejo|CL|chamaco|MX|Niño
+mino|CL|atractivo|NEUTRAL|Guapo
+mina|CL|chica|NEUTRAL|Mujer
+mina rica|CL|chica guapa|NEUTRAL|Mujer bonita
+
+### Más naturaleza y clima
+hace caleta de calor|CL|hace mucho calor|NEUTRAL|Mucho calor
+hace un frío del carajo|CL|hace mucho frío|NEUTRAL|Frío extremo
+está pelando el mono|CL|hace mucho calor|NEUTRAL|Calor intenso
+está lloviendo a cántaros|CL|llueve mucho|NEUTRAL|Lluvia fuerte
+está peligrosa la cosa|CL|está difícil|NEUTRAL|Situación complicada
+el ají|CL|el sol|NEUTRAL|Sol intenso
+pegado el sol|CL|sol fuerte|NEUTRAL|Mucho sol
+
+### Más deporte
+picar la pelota|CL|jugar fútbol|NEUTRAL|Jugar partido informal
+hacer la chancha|CL|hacer trampa|NEUTRAL|Hacer trampas
+meter gol|CL|anotar|NEUTRAL|Hacer un gol
+arquero|CL|portero|NEUTRAL|Guardameta
+jugada|CL|movimiento|NEUTRAL|Acción deportiva
+
+### Expresiones con animales
+estar como piojo|CL|estar pegado|NEUTRAL|Estar muy cerca
+sapo culiao|CL|soplón|NEUTRAL|Chismoso
+hacer la pata|CL|hacer el ridículo|NEUTRAL|Hacer el tonto
+tener ojo de águila|CL|tener buena vista|NEUTRAL|Ver bien
+andar como pollo sin cabeza|CL|andar desorganizado|NEUTRAL|Estar perdido
+
+### Más salud
+estar pal pico|CL|estar mal|NEUTRAL|Sentirse mal
+estar pal loly|CL|estar enfermo|NEUTRAL|Estar fatal
+estar enfermito|CL|estar mal|NEUTRAL|Sentirse indispuesto
+echar la primera|CL|vomitar|NEUTRAL|Devolver
+tener caña|CL|tener resaca|NEUTRAL|Malestar post-alcohol
+tener caña|CL|tener cruda|MX|Resaca
+andar achacado|CL|estar enfermo|NEUTRAL|Indispuesto
+
+### Más tecnología y modernidad
+celu|CL|celular|NEUTRAL|Teléfono móvil
+celu|CL|móvil|ES|Celular
+cachar la onda|CL|entender|NEUTRAL|Comprender
+cachaste el chiste|CL|entendiste|NEUTRAL|Comprendiste
+mandar un wassap|CL|enviar whatsapp|NEUTRAL|Mandar mensaje
+stalkear|CL|espiar redes|NEUTRAL|Ver perfiles
+subir foto|CL|publicar|NEUTRAL|Postear imagen
+
+### Más expresiones temporales
+al toque|CL|rápido|NEUTRAL|Inmediato
+al tiro nomás|CL|inmediatamente|NEUTRAL|Ahora mismo
+altiro|CL|ya|NEUTRAL|Rápido
+lueguito|CL|pronto|NEUTRAL|En un rato
+ratito|CL|momento|NEUTRAL|Poco tiempo
+¿cachai o no?|CL|¿entiendes?|NEUTRAL|¿Comprendes?
+de repente|CL|a veces|NEUTRAL|Ocasionalmente
+
+### Más intensificadores
+caleta|CL|mucho|NEUTRAL|Gran cantidad
+harto|CL|mucho|NEUTRAL|Bastante
+una caleta de|CL|muchos|NEUTRAL|Gran cantidad
+un montón|CL|mucho|NEUTRAL|Abundante
+pila|CL|mucho|NEUTRAL|Cantidad grande
+súper|CL|muy|NEUTRAL|Muy
+raja|CL|partido|NEUTRAL|Roto

@@ -1,17 +1,29 @@
-import { Mic, MessageSquare, Star } from "lucide-react";
+import { Mic, MessageSquare, Star, ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface HeaderProps {
   title: string;
   rightAction?: React.ReactNode;
   icon?: "mic" | "text";
   showChileanFlag?: boolean;
+  onBack?: () => void;
 }
 
-export function Header({ title, rightAction, icon, showChileanFlag = false }: HeaderProps) {
+export function Header({ title, rightAction, icon, showChileanFlag = false, onBack }: HeaderProps) {
   return (
     <header className="bg-gradient-to-r from-[hsl(217,100%,33%)] to-[hsl(217,91%,60%)] border-b border-secondary/20 shadow-lg">
       <div className="max-w-lg mx-auto px-5 py-6 flex justify-between items-center">
         <div className="flex items-center gap-3">
+          {onBack && (
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={onBack}
+              className="text-white hover:bg-white/20 -ml-2"
+            >
+              <ArrowLeft className="w-5 h-5" />
+            </Button>
+          )}
           {showChileanFlag && (
             <div className="w-7 h-7 relative flex-shrink-0">
               <div className="absolute top-0 left-0 w-3.5 h-3.5 bg-[hsl(217,100%,33%)] flex items-center justify-center rounded-tl-md">

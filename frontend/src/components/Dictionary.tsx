@@ -1,7 +1,7 @@
 import { Header } from "./Header";
 import { Button } from "@/components/ui/button";
 import { BottomNav } from "./BottomNav";
-import { Plus, Trash2 } from "lucide-react";
+import { Plus, Trash2, Book } from "lucide-react";
 import { DictionaryEntry } from "@/types";
 
 interface DictionaryProps {
@@ -10,6 +10,7 @@ interface DictionaryProps {
   onDeleteEntry: (id: string) => void;
   onChangeNationality: () => void;
   onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
+  onExploreModismos?: () => void;
 }
 
 export function Dictionary({
@@ -18,19 +19,30 @@ export function Dictionary({
   onDeleteEntry,
   onChangeNationality,
   onNavigate,
+  onExploreModismos,
 }: DictionaryProps) {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Header title="Mi Diccionario" />
       
       <div className="flex-1 max-w-lg mx-auto w-full px-5 py-6 pb-24">
-        <Button
-          variant="outline"
-          className="w-full mb-6"
-          onClick={onChangeNationality}
-        >
-          Cambiar nacionalidad
-        </Button>
+        <div className="grid grid-cols-2 gap-3 mb-6">
+          <Button
+            variant="outline"
+            onClick={onChangeNationality}
+          >
+            Cambiar nacionalidad
+          </Button>
+          {onExploreModismos && (
+            <Button
+              variant="outline"
+              onClick={onExploreModismos}
+            >
+              <Book className="w-4 h-4 mr-2" />
+              Explorar Modismos
+            </Button>
+          )}
+        </div>
         
         {entries.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-16">

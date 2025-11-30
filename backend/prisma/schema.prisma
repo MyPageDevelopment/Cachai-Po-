@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Country {
+  code String @id @db.VarChar(2)
+  name String @db.VarChar(100)
+  flag String @db.VarChar(10)
+
+  @@map("countries")
+}
+
+model Translation {
+  id                      String   @id @default(uuid())
+  originCountryCode       String   @db.VarChar(2)
+  destinationCountryCode  String   @db.VarChar(2)
+  originalText            String   @db.Text
+  translatedText          String   @db.Text
+  equivalences            Json
+  createdAt               DateTime @default(now())
+
+  @@map("translations")
+}
+
+model DictionaryEntry {
+  id                      String   @id @default(uuid())
+  userId                  String?  @db.VarChar(255)
+  word                    String   @db.Text
+  translation             String   @db.Text
+  originCountryCode       String   @db.VarChar(2)
+  originCountryName       String   @db.VarChar(100)
+  originCountryFlag       String   @db.VarChar(10)
+  destinationCountryCode  String   @db.VarChar(2)
+  destinationCountryName  String   @db.VarChar(100)
+  destinationCountryFlag  String   @db.VarChar(10)
+  createdAt               DateTime @default(now())
+
+  @@map("dictionary_entries")
+}
+
+model UserSettings {
+  id                  String   @id @default(uuid())
+  userId              String   @unique @db.VarChar(255)
+  name                String?  @db.VarChar(200)
+  originCountryCode   String   @db.VarChar(2)
+  originCountryName   String   @db.VarChar(100)
+  originCountryFlag   String   @db.VarChar(10)
+  email               String?  @db.VarChar(200)
+  realtimeTranslation Boolean  @default(false)
+  readingSpeed        String   @default("normal") @db.VarChar(10)
+  darkMode            Boolean  @default(false)
+  language            String   @default("es") @db.VarChar(2)
+  updatedAt           DateTime @updatedAt
+
+  @@map("user_settings")
+}

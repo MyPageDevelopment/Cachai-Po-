@@ -1,17 +1,17 @@
 import { Header } from "./Header";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
-import { countries } from "@/data/countries";
 import { Country } from "@/types";
 
 interface CountrySelectorProps {
   selecting: "origin" | "destination";
   currentCountry: Country;
+  countries: Country[];
   onSelect: (country: Country) => void;
   onBack: () => void;
 }
 
-export function CountrySelector({ selecting, currentCountry, onSelect, onBack }: CountrySelectorProps) {
+export function CountrySelector({ selecting, currentCountry, countries, onSelect, onBack }: CountrySelectorProps) {
   return (
     <div className="min-h-screen bg-background">
       <Header

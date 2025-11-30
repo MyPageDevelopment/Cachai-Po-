@@ -14,6 +14,8 @@ interface VoiceRecordingProps {
   onStopRecording: () => void;
   onNavigate: (screen: "voice-mode" | "dictionary" | "settings") => void;
   realtimeMode?: boolean;
+  transcript?: string;
+  interimTranscript?: string;
 }
 
 export function VoiceRecording({
@@ -25,6 +27,8 @@ export function VoiceRecording({
   onStopRecording,
   onNavigate,
   realtimeMode = false,
+  transcript = "",
+  interimTranscript = "",
 }: VoiceRecordingProps) {
   const [seconds, setSeconds] = useState(0);
   
@@ -104,6 +108,19 @@ export function VoiceRecording({
             {realtimeMode ? "Traduciendo en vivo..." : "Grabando..."}
           </p>
           <p className="text-3xl font-mono font-bold text-[hsl(4,75%,49%)] mb-8">{formatTime(seconds)}</p>
+          
+          {/* Texto capturado */}
+          {(transcript || interimTranscript) && (
+            <div className="w-full max-w-md mb-8 p-6 bg-card rounded-2xl border-2 border-[hsl(217,100%,33%)]/20 shadow-lg">
+              <p className="text-sm text-muted-foreground mb-2">📝 Texto capturado:</p>
+              <p className="text-lg text-foreground leading-relaxed">
+                {transcript}
+                {interimTranscript && (
+                  <span className="text-muted-foreground italic"> {interimTranscript}</span>
+                )}
+              </p>
+            </div>
+          )}
           
           {/* Wave Animation */}
           <div className="flex items-center gap-2 mb-8 h-16">
