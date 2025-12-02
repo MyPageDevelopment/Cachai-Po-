@@ -71,10 +71,12 @@ export class ModismoLoaderService implements OnModuleInit {
     const key = `${palabra.toLowerCase()}|${paisOrigen}`;
     const all = this.modismosIndex.get(key) || [];
     
-    // Filtrar por país destino o neutral
-    return all.filter(m => 
-      m.paisDestino === paisDestino || m.paisDestino === 'NEUTRAL'
-    );
+    // Priorizar traducciones directas (jerga-a-jerga) sobre neutrales
+    const directas = all.filter(m => m.paisDestino === paisDestino);
+    const neutrales = all.filter(m => m.paisDestino === 'NEUTRAL');
+    
+    // Si hay traducciones directas, usarlas primero
+    return directas.length > 0 ? directas : neutrales;
   }
 
   findAllFromCountry(paisOrigen: string): Modismo[] {

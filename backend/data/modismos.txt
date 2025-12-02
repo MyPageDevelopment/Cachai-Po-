@@ -138,7 +138,7 @@ chamullar|CL|ligar|NEUTRAL|Coquetear
 güey|MX|amigo|NEUTRAL|Compañero
 wey|MX|tío|NEUTRAL|Persona
 no manches|MX|no puede ser|NEUTRAL|Sorpresa
-no manches|MX|cachai|CL|No puede ser
+no manches|MX|enserio|CL|No puede ser
 chido|MX|genial|NEUTRAL|Muy bueno
 chido|MX|bacán|CL|Excelente
 padre|MX|genial|NEUTRAL|Muy bueno
@@ -726,3 +726,513 @@ un montón|CL|mucho|NEUTRAL|Abundante
 pila|CL|mucho|NEUTRAL|Cantidad grande
 súper|CL|muy|NEUTRAL|Muy
 raja|CL|partido|NEUTRAL|Roto
+
+## TRADUCCIONES DIRECTAS JERGA-A-JERGA (Sin pasar por neutral)
+
+### CHILE ↔ MÉXICO - Traducciones Directas
+
+# Saludos y expresiones
+cachai|CL|entiendes wey|MX|¿Entiendes, amigo?
+po|CL|pos|MX|Muletilla
+hueón|CL|güey|MX|Amigo
+weón|CL|wey|MX|Compadre
+qué onda|CL|qué pedo|MX|¿Qué pasa?
+al tiro|CL|ahorita|MX|Inmediatamente
+
+# Positivos
+bacán|CL|chido|MX|Genial
+piola|CL|chido|MX|Cool
+la raja|CL|a toda madre|MX|Excelente
+pulento|CL|padrísimo|MX|Impresionante
+filete|CL|chingón|MX|Muy bueno
+
+# Negativos
+fome|CL|gacho|MX|Aburrido
+rasca|CL|naco|MX|Ordinario
+penca|CL|chafa|MX|Malo
+
+# Fiesta
+carrete|CL|reventón|MX|Fiesta
+carretear|CL|ir al reventón|MX|Ir de fiesta
+copete|CL|chupe|MX|Bebida alcohólica
+curado|CL|pedo|MX|Borracho
+tomado|CL|bien pedo|MX|Ebrio
+
+# Dinero
+luca|CL|billete|MX|Mil pesos
+estar pelado|CL|estar sin varo|MX|Sin dinero
+estar pato|CL|estar sin lana|MX|Quebrado
+
+# Transporte
+micro|CL|camión|MX|Autobús
+cola|CL|fila|MX|Hacer fila
+
+# Comida
+palta|CL|aguacate|MX|Fruta verde
+guagua|CL|bebé|MX|Niño pequeño
+once|CL|merienda|MX|Comida tarde
+
+# Trabajo
+pega|CL|chamba|MX|Trabajo
+buscar pega|CL|buscar chamba|MX|Buscar trabajo
+compañero|CL|compa|MX|Colega
+
+# Insultos
+gil|CL|pendejo|MX|Tonto
+flaite|CL|naco|MX|Ordinario
+sapo|CL|chismoso|MX|Delator
+
+# Estados
+estar raja|CL|estar reventado|MX|Cansado
+cabreado|CL|encabronado|MX|Enojado
+tener caña|CL|andar crudo|MX|Resaca
+
+# Familia
+cabro|CL|chamaco|MX|Niño
+pendejo|CL|escuincle|MX|Niño pequeño
+vieja|CL|jefa|MX|Mamá
+viejo|CL|jefe|MX|Papá
+
+# Lugares
+taco|CL|tráfico|MX|Embotellamiento
+
+### CHILE ↔ ARGENTINA - Traducciones Directas
+
+# Saludos
+hueón|CL|boludo|AR|Amigo
+weón|CL|che|AR|Persona
+po|CL|che|AR|Muletilla
+qué onda|CL|qué onda boludo|AR|¿Qué pasa?
+
+# Positivos
+bacán|CL|copado|AR|Genial
+piola|CL|piola|AR|Tranquilo
+la raja|CL|re zarpado|AR|Excelente
+pulento|CL|re copado|AR|Impresionante
+
+# Negativos
+fome|CL|embole|AR|Aburrido
+chanta|CL|trucho|AR|Mentiroso
+
+# Fiesta
+carrete|CL|joda|AR|Fiesta
+carretear|CL|ir de joda|AR|Salir
+copete|CL|escabio|AR|Bebida
+curado|CL|en pedo|AR|Borracho
+hacer la previa|CL|hacer la previa|AR|Juntarse antes
+
+# Dinero
+luca|CL|luca|AR|Mil
+estar pelado|CL|estar sin un mango|AR|Sin dinero
+estar pato|CL|estar seco|AR|Quebrado
+
+# Transporte
+micro|CL|bondi|AR|Autobús
+colectivo|CL|remis|AR|Taxi
+
+# Trabajo
+pega|CL|laburo|AR|Trabajo
+buscar pega|CL|buscar laburo|AR|Buscar empleo
+
+# Comida
+guagua|CL|bebé|AR|Niño pequeño
+
+# Insultos
+gil|CL|gil|AR|Tonto
+huevón|CL|pelotudo|AR|Idiota
+sapo|CL|buchón|AR|Soplón
+forro|CL|garca|AR|Mala persona
+
+# Estados
+estar raja|CL|estar reventado|AR|Cansado
+tener caña|CL|estar de resaca|AR|Resaca
+
+# Emociones
+cuático|CL|zarpado|AR|Increíble
+terrible|CL|re|AR|Muy
+
+# Familia
+cabro|CL|pibe|AR|Niño
+mina|CL|mina|AR|Chica
+tipo|CL|chabón|AR|Tipo
+
+# Conversación
+chamullar|CL|chamuyar|AR|Conversar
+cachar|CL|capar|AR|Entender
+
+### CHILE ↔ COLOMBIA - Traducciones Directas
+
+# Saludos
+hueón|CL|parce|CO|Amigo
+weón|CL|parcero|CO|Compadre
+qué onda|CL|quiubo|CO|¿Qué pasa?
+
+# Positivos
+bacán|CL|bacano|CO|Genial
+piola|CL|chévere|CO|Cool
+la raja|CL|una chimba|CO|Excelente
+pulento|CL|berraco|CO|Impresionante
+filete|CL|bacano|CO|Muy bueno
+
+# Negativos
+fome|CL|jartera|CO|Aburrido
+penca|CL|maluco|CO|Malo
+
+# Fiesta
+carrete|CL|rumba|CO|Fiesta
+carretear|CL|rumbear|CO|Ir de fiesta
+copete|CL|pola|CO|Cerveza
+curado|CL|jincho|CO|Borracho
+
+# Dinero
+estar pelado|CL|estar sin pisto|CO|Sin dinero
+
+# Trabajo
+pega|CL|camello|CO|Trabajo
+buscar pega|CL|buscar camello|CO|Buscar trabajo
+
+# Comida
+guagua|CL|bebé|CO|Niño pequeño
+
+# Expresiones
+cahuín|CL|bochinche|CO|Chisme
+vaina|CL|huevada|CO|Cosa
+
+### MÉXICO ↔ ARGENTINA - Traducciones Directas
+
+# Saludos
+güey|MX|boludo|AR|Amigo
+wey|MX|che|AR|Persona
+qué pedo|MX|qué onda boludo|AR|¿Qué pasa?
+
+# Positivos
+chido|MX|copado|AR|Genial
+padre|MX|re copado|AR|Muy bueno
+a toda madre|MX|re zarpado|AR|Excelente
+chingón|MX|re piola|AR|Genial
+
+# Negativos
+gacho|MX|feo|AR|Malo
+naco|MX|grasa|AR|Ordinario
+chafa|MX|trucho|AR|De mala calidad
+
+# Fiesta
+reventón|MX|joda|AR|Fiesta
+chela|MX|birra|AR|Cerveza
+estar pedo|MX|estar en pedo|AR|Borracho
+crudo|MX|resaca|AR|Malestar post-alcohol
+
+# Dinero
+varo|MX|guita|AR|Dinero
+lana|MX|mango|AR|Plata
+
+# Trabajo
+chamba|MX|laburo|AR|Trabajo
+
+# Transporte
+camión|MX|bondi|AR|Autobús
+
+# Insultos
+pendejo|MX|pelotudo|AR|Idiota
+
+# Conversación
+platicar|MX|chamuyar|AR|Conversar
+
+### MÉXICO ↔ COLOMBIA - Traducciones Directas
+
+# Saludos
+güey|MX|parce|CO|Amigo
+wey|MX|parcero|CO|Compadre
+qué pedo|MX|quiubo|CO|¿Qué pasa?
+qué onda|MX|qué más|CO|¿Qué tal?
+
+# Positivos
+chido|MX|chévere|CO|Genial
+padre|MX|bacano|CO|Muy bueno
+a toda madre|MX|una chimba|CO|Excelente
+chingón|MX|berraco|CO|Increíble
+
+# Negativos
+gacho|MX|maluco|CO|Malo
+naco|MX|ñero|CO|Ordinario
+
+# Fiesta
+reventón|MX|rumba|CO|Fiesta
+chela|MX|pola|CO|Cerveza
+estar pedo|MX|estar jincho|CO|Borracho
+crudo|MX|guayabo|CO|Resaca
+
+# Trabajo
+chamba|MX|camello|CO|Trabajo
+
+# Expresiones
+vaina|MX|vaina|CO|Cosa
+
+### ARGENTINA ↔ COLOMBIA - Traducciones Directas
+
+# Saludos
+boludo|AR|parce|CO|Amigo
+che|AR|parce|CO|Compadre
+qué onda|AR|quiubo|CO|¿Qué pasa?
+
+# Positivos
+copado|AR|chévere|CO|Genial
+re copado|AR|bacano|CO|Muy bueno
+zarpado|AR|berraco|CO|Increíble
+piola|AR|chévere|CO|Tranquilo
+
+# Fiesta
+joda|AR|rumba|CO|Fiesta
+birra|AR|pola|CO|Cerveza
+estar en pedo|AR|estar jincho|CO|Borracho
+resaca|AR|guayabo|CO|Resaca
+
+# Trabajo
+laburo|AR|camello|CO|Trabajo
+
+# Conversación
+chamuyar|AR|parchar|CO|Conversar
+
+### CHILE ↔ ESPAÑA - Traducciones Directas
+
+# Saludos
+hueón|CL|tío|ES|Persona
+weón|CL|tío|ES|Amigo
+po|CL|tío|ES|Muletilla
+qué onda|CL|qué pasa tío|ES|¿Qué tal?
+
+# Positivos
+bacán|CL|guay|ES|Genial
+piola|CL|mola|ES|Cool
+la raja|CL|de puta madre|ES|Excelente
+pulento|CL|cojonudo|ES|Impresionante
+
+# Negativos
+fome|CL|rollo|ES|Aburrido
+penca|CL|chungo|ES|Malo
+ser un petardo|ES|ser fome|CL|Ser aburrido
+
+# Fiesta
+carrete|CL|marcha|ES|Fiesta
+copete|CL|copa|ES|Bebida
+curado|CL|pedo|ES|Borracho
+
+# Expresiones
+cahuín|CL|cotilleo|ES|Chisme
+
+# Familia
+cabro|CL|chaval|ES|Niño
+mina|CL|tía|ES|Chica
+
+# Trabajo
+pega|CL|curro|ES|Trabajo
+
+# Transporte
+micro|CL|bus|ES|Autobús
+
+### MÉXICO ↔ ESPAÑA - Traducciones Directas
+
+# Saludos
+güey|MX|tío|ES|Amigo
+wey|MX|tronco|ES|Persona
+qué pedo|MX|qué pasa tío|ES|¿Qué tal?
+
+# Positivos
+chido|MX|guay|ES|Genial
+padre|MX|mola|ES|Muy bueno
+a toda madre|MX|de puta madre|ES|Excelente
+
+# Negativos
+gacho|MX|chungo|ES|Malo
+
+# Fiesta
+reventón|MX|juerga|ES|Fiesta
+chela|MX|caña|ES|Cerveza
+crudo|MX|resaca|ES|Malestar post-alcohol
+
+# Trabajo
+chamba|MX|curro|ES|Trabajo
+
+# Dinero
+varo|MX|pasta|ES|Dinero
+
+### CHILE ↔ PERÚ - Traducciones Directas
+
+# Saludos
+hueón|CL|pata|PE|Amigo
+weón|CL|causa|PE|Compadre
+
+# Positivos
+bacán|CL|bacán|PE|Genial
+la raja|CL|bacán|PE|Excelente
+
+# Trabajo
+pega|CL|chamba|PE|Trabajo
+sapear|CL|chancar|PE|Estudiar
+
+# Familia
+cabro|CL|chibolo|PE|Niño
+
+# Transporte
+al tiro|CL|al toque|PE|Rápido
+
+# Comida
+palta|CL|palta|PE|Aguacate/Vergüenza
+
+# Insultos
+gil|CL|gil|PE|Tonto
+
+# Policía
+paco|CL|tombo|PE|Policía
+
+# Bebida
+copete|CL|chela|PE|Cerveza
+
+### MÉXICO ↔ PERÚ - Traducciones Directas
+
+# Saludos
+güey|MX|causa|PE|Amigo
+
+# Positivos
+chido|MX|bacán|PE|Genial
+padre|MX|chévere|PE|Muy bueno
+
+# Trabajo
+chamba|MX|chamba|PE|Trabajo
+
+# Bebida
+chela|MX|chela|PE|Cerveza
+
+# Transporte
+ahorita|MX|al toque|PE|Rápido
+
+### ARGENTINA ↔ PERÚ - Traducciones Directas
+
+# Saludos
+boludo|AR|pata|PE|Amigo
+che|AR|causa|PE|Compadre
+
+# Positivos
+copado|AR|bacán|PE|Genial
+
+# Trabajo
+laburo|AR|chamba|PE|Trabajo
+
+# Bebida
+birra|AR|chela|PE|Cerveza
+
+### COLOMBIA ↔ PERÚ - Traducciones Directas
+
+# Saludos
+parce|CO|pata|PE|Amigo
+parcero|CO|causa|PE|Compadre
+
+# Positivos
+chévere|CO|chévere|PE|Genial
+bacano|CO|bacán|PE|Muy bueno
+
+# Trabajo
+camello|CO|chamba|PE|Trabajo
+
+# Bebida
+pola|CO|chela|PE|Cerveza
+
+# Resaca
+guayabo|CO|resaca|PE|Malestar post-alcohol
+
+### CHILE ↔ URUGUAY - Traducciones Directas
+
+# Saludos
+hueón|CL|bo|UY|Amigo
+po|CL|ta|UY|Muletilla
+
+# Positivos
+bacán|CL|bárbaro|UY|Genial
+la raja|CL|re lindo|UY|Excelente
+
+# Familia
+cabro|CL|gurí|UY|Niño
+
+# Trabajo
+pega|CL|laburo|UY|Trabajo
+
+# Transporte
+micro|CL|bondi|UY|Autobús
+
+# Adinerado
+cuico|CL|cheto|UY|Persona fresa
+
+### CHILE ↔ VENEZUELA - Traducciones Directas
+
+# Saludos
+hueón|CL|pana|VE|Amigo
+weón|CL|marico|VE|Compadre
+
+# Positivos
+bacán|CL|chévere|VE|Genial
+la raja|CL|burda de bueno|VE|Excelente
+
+# Familia
+cabro|CL|chamo|VE|Niño
+mina|CL|jeva|VE|Chica
+
+# Expresiones
+huevada|CL|vaina|VE|Cosa
+cahuín|CL|bochinche|VE|Chisme
+
+### MÉXICO ↔ VENEZUELA - Traducciones Directas
+
+# Saludos
+güey|MX|pana|VE|Amigo
+wey|MX|marico|VE|Compadre
+
+# Positivos
+chido|MX|chévere|VE|Genial
+padre|MX|arrecho|VE|Muy bueno
+
+# Familia
+chamaco|MX|chamo|VE|Niño
+
+# Expresiones
+cosa|MX|vaina|VE|Cosa
+
+### ARGENTINA ↔ URUGUAY - Traducciones Directas
+
+# Saludos
+boludo|AR|bo|UY|Amigo
+che|AR|bo|UY|Interjección
+
+# Positivos
+copado|AR|bárbaro|UY|Genial
+re bueno|AR|re lindo|UY|Muy bueno
+
+# Familia
+pibe|AR|gurí|UY|Niño
+
+# Trabajo
+laburo|AR|laburo|UY|Trabajo
+
+# Transporte
+bondi|AR|bondi|UY|Autobús
+
+# Adinerado
+cheto|AR|cheto|UY|Persona fresa
+
+### CHILE ↔ ECUADOR - Traducciones Directas
+
+# Saludos
+hueón|CL|mijo|EC|Amigo
+
+# Positivos
+bacán|CL|chévere|EC|Genial
+la raja|CL|de ley|EC|Excelente
+
+# Familia
+guagua|CL|guagua|EC|Bebé
+cabro|CL|pelado|EC|Niño
+
+# Dinero
+estar pelado|CL|estar chiro|EC|Sin dinero
+
+# Resaca
+tener caña|CL|tener chuchaqui|EC|Resaca
